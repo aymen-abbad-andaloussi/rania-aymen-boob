@@ -52,7 +52,6 @@ textarea{
     padding-inline: 10px;
 }
 
-
 .sec3-button{
     display: flex;
     justify-content: center;
@@ -67,9 +66,55 @@ textarea{
     border-radius: 20px;
 }
 
-
 /* end section 3 */
 
+/* start footer */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(15, 15, 136);
+    height: 40vh;
+    gap: 30px;
+}
 
+.foot-top{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foot-top h5{
+    color: white;
+    margin-bottom: 5px;
+}
+
+.foot-top h1{
+    color: red;  
+}
+
+.foot-links{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.foot-links a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.foot-copy{
+    color: white;
+    font-size: 1.0em;
+}
+
+.foot-icone i{
+    color: white;
+    padding: 10px;
+}
+/* end footer */
 
 
