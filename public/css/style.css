@@ -178,3 +178,117 @@ body{
 
 /* end section 2 */
 
+
+/* start section 3 */
+.section3{
+    display: flex;
+    flex-direction: column;
+}
+
+.sec3-top p{
+    color: red;
+}
+
+.sec3-top h1{
+    color: rgb(5, 5, 111);
+}
+
+.sec3-form{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    padding: 30px;
+    row-gap: 2vh;
+}
+.sec3-inputs input{
+    width:calc(65vw/2) ;
+    padding: 5px 10px;
+    border: none;
+    background-color:rgb(241, 241, 255);
+}
+
+.sec3-inputs{
+    display: flex;
+    column-gap: 1vw;
+}
+
+textarea{
+    width: 100%;
+    border: none;
+    background-color:rgb(241, 241, 255);
+    padding-inline: 10px;
+}
+
+.sec3-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec3-button button{
+    border:none;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+/* end section 3 */
+
+/* start footer */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(15, 15, 136);
+    height: 45vh;
+    gap: 20px;
+}
+
+.foot-top{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foot-top h5{
+    color: white;
+    margin-bottom: 5px;
+}
+
+.foot-top h1{
+    color: red;  
+}
+
+.foot-links{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.foot-links a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.foot-copy{
+    color: white;
+    font-size: 0.7em;
+}
+
+.foot-icone{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.foot-icone i{
+    color: white;
+    padding: 10px;
+    font-size: 1.5em;
+}
+/* end footer */
+
+
