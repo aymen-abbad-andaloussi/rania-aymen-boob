@@ -69,7 +69,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-top: 20vh;
+    margin: 22vh 0;
 }
 
 .section1 h1{
@@ -92,7 +92,7 @@ body{
 .sec1-btns button{
     font-size: 0.7em;
     font-weight: 600;
-    padding: 12px 30px;
+    padding: 15px 30px;
     border-radius: 25px;
     border: none;
     text-transform: capitalize;
@@ -109,4 +109,72 @@ body{
 }
 
 /* end section 1 */
+
+/* start section 2 */
+
+.section2{
+    display: flex;
+    gap: 5vw;    
+}
+
+.sec2-texte{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.sec2-texte h1{
+    color: rgb(15, 15, 136);
+    font-size: 2.5em;
+    width: 20vw;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.sec2-btn-get{
+    font-size: 0.7em;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 25px;
+    border: none;
+    text-transform: capitalize;
+    width: 50%;
+    background: red;
+    color: #fff;
+}
+
+.sec2-colums{
+    display: flex;
+    gap: 3vw;
+}
+
+.sec2-colum-left,.sec2-colum-right{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 4vh;
+}
+
+.sec2-colum-left i,.sec2-colum-right i{
+    font-size: 4em;    
+    color: rgb(15, 15, 136);
+}
+
+.sec2-colum-left h2,.sec2-colum-right h2{
+    font-size: 2em;    
+    color: rgb(15, 15, 136);
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.sec2-colum-left p,.sec2-colum-right p{
+    font-size: 0.8em;    
+    color: rgb(58, 58, 58);
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+
+/* end section 2 */
 
